@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".arrange").click(function(){
+      $(".smallac").toggle(300);
+    });
+    $(".up-bg").click(function(){
+        $(".smallac").hide(300);
+      });
+      $(".up-bg-logo-box").click(function(){
+        $(".smallac").hide(300);
+      });
+  });
